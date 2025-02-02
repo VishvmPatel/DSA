@@ -3,4 +3,5 @@ using namespace std;
 int main(){
     cout<<"Hello HalfBloodPrince!"<<"\n";
     cout<<"How are you??";
+    return 0;
 }
