@@ -20,6 +20,11 @@ int main(){
     */
     string str;
     getline(cin,str);
-    cout<<str;
+    cout<<str<<"\n";
+
+    // char
+    char ch = 'g';
+    cout<<ch;
+
     return 0;
 }
