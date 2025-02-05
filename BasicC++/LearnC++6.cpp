@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//IF and ELSE IF STATEMENTS
+
 /*
 A school has following rules for grading system:
 a. Below 25 - F
