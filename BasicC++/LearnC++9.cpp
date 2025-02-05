@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//ARRAYS
+//ARRAYS - 1D Array
 
 //Datatype has to be constant for all the elements
 
