@@ -13,8 +13,8 @@ int main(){
     for(int i = 0 ; i<=4; i++){
         cout << arr[i] << " ";
     }
-    
-    cout<< endl;
+    cout<<endl;
+    cout<<sizeof(arr)<<endl;
     arr[3] += 10;
     cout<<arr[3];
     return 0;
