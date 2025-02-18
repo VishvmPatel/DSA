@@ -1,5 +1,7 @@
 #include <iostream>  // Use iostream for input/output
 
+//DYNAMIC MEMORY ALLOCATION
+
 int main() {
     int* ptr = new int;  // Dynamically allocate memory on the heap
 
