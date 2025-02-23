@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void fun(int n) {
-    static int x = 0;  // Static variable (retains value across calls)
+int fun(int n) {
+    static int x = 0;  // Static variable retains its value across function calls
     if (n > 0) {
-        x++;  // Increment x in each call
-        fun(n - 1);
+        x++;  // Increment x in each recursive call
+        return fun(n - 1) + x;  // Recursive call and accumulation of x
     }
-    cout << x << " ";  // Print after recursion unwinds
+    return 0;  // Base case: when n reaches 0, return 0
 }
 
 int main() {
-    fun(5);
+    int r = fun(5);  // Calling the function with n = 5
+    cout << r << "\n";  // Output the result
     return 0;
 }
