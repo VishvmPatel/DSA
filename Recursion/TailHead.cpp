@@ -19,4 +19,5 @@ int main(){
     fun1(x);
     cout<<"\n";
     fun2(x);
+    return 0;
 }
