@@ -4,7 +4,7 @@ using namespace std;
 //TAIL RECURSION
 void fun(int n){
     if(n>0){
-        cout<<n<<" ";
+        cout<<n<<"\n";
         fun(n-1);
     }
 }
