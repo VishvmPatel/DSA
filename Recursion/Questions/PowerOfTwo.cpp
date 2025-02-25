@@ -18,6 +18,7 @@ int main() {
     Solution sol;
 
     // Test cases
+    cout << boolalpha;
     cout << "isPowerOfTwo(1): " << sol.isPowerOfTwo(1) << endl;      // Expected: true (2^0)
     cout << "isPowerOfTwo(2): " << sol.isPowerOfTwo(2) << endl;      // Expected: true (2^1)
     cout << "isPowerOfTwo(8): " << sol.isPowerOfTwo(8) << endl;      // Expected: true (2^3)
