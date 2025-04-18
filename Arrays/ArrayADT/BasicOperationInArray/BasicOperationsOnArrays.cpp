@@ -32,7 +32,7 @@ public:
 
     // Find max value
     int max() {
-        int maxVal = A[0];
+        int maxVal = A[0]; //For min just change all to min
         for (int i = 1; i < length; i++) {
             if (A[i] > maxVal)
                 maxVal = A[i];
