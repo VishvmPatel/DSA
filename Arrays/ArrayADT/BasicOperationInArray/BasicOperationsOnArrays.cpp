@@ -40,6 +40,15 @@ public:
         return maxVal;
     }
 
+    // Find sum of all elements
+    int sum() {
+        int total = 0;
+        for (int i = 0; i < length; i++) {
+            total += A[i];
+        }
+        return total;
+    }
+
     // Find average
     double avg() {
         int sum = 0;
@@ -72,8 +81,8 @@ int main() {
     arr.display();
 
     cout << "Maximum value: " << arr.max() << endl;
+    cout << "Sum of elements: " << arr.sum() << endl;
     cout << "Average value: " << arr.avg() << endl;
 
     return 0;
 }
-
